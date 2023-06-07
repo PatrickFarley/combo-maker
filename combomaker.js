@@ -76,7 +76,7 @@ const getCombo = () => {
 
     // Append each move to the result
     for (var i = 0; i < combination.length; i++) {
-        var move = "Generated Move " + combination[i];
+        var move = ""+(i+1) +". "+ combination[i];
         var moveElement = document.createElement("p");
         moveElement.innerText = move;
         resultDiv.appendChild(moveElement);
