@@ -17,7 +17,6 @@ const moves = [
   'rear uppercut',
   'rear elbow',
   'slip right',
-  'reset',
   'rear kick',
   'rear teep',
   'rear knee'

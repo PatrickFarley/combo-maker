@@ -17,32 +17,6 @@ def generate_combination(moves, rules):
     
     return combination
 
-# List of martial arts moves
-moves = [
-    'jab',
-    'body jab',
-    'hook',
-    'body hook',
-    'lead uppercut',
-    'lead elbow',
-    'slipL',
-    'resetL',
-    'switch kick',
-    'teep',
-    'switch knee',
-    'cross',
-    'body cross',
-    'overhand',
-    'rear body hook',
-    'rear uppercut',
-    'rear elbow',
-    'slipR',
-    'resetR',
-    'rear kick',
-    'rear teep',
-    'rear knee'
-]
-
 # Move rules as a list of lists
 # List of martial arts moves
 moves = [
