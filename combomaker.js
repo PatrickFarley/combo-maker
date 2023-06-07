@@ -66,22 +66,19 @@ const generateCombination = (moves, rules, comboLength) => {
   return combination;
 };
 
-const comboLength = document.getElementById("combo-length").value;
-const combination = generateCombination(moves, rules, comboLength);
+const getCombo = () => {
+    const comboLength = document.getElementById("combo-length").value;
+    const combination = generateCombination(moves, rules, comboLength);
 
-// Print the combination
-combination.forEach((move) => {
-  console.log(move);
-});
+    // Update the result in the HTML
+    var resultDiv = document.getElementById("result");
+    resultDiv.innerHTML = "";  // Clear previous result
 
-// Update the result in the HTML
-  var resultDiv = document.getElementById("result");
-  resultDiv.innerHTML = "";  // Clear previous result
-
-  // Append each move to the result
-  for (var i = 0; i < combination.length; i++) {
-    var move = "Generated Move " + combination[i];
-    var moveElement = document.createElement("p");
-    moveElement.innerText = move;
-    resultDiv.appendChild(moveElement);
-  }
+    // Append each move to the result
+    for (var i = 0; i < combination.length; i++) {
+        var move = "Generated Move " + combination[i];
+        var moveElement = document.createElement("p");
+        moveElement.innerText = move;
+        resultDiv.appendChild(moveElement);
+    }
+}
