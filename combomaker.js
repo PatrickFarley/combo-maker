@@ -80,7 +80,7 @@ combination.forEach((move) => {
 
   // Append each move to the result
   for (var i = 0; i < combination.length; i++) {
-    var move = "Generated Move " + combination[i+1];
+    var move = "Generated Move " + combination[i];
     var moveElement = document.createElement("p");
     moveElement.innerText = move;
     resultDiv.appendChild(moveElement);
