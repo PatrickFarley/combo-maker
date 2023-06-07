@@ -40,8 +40,7 @@ moves = [
     'resetR',
     'rear kick',
     'rear teep',
-    'rear knee',
-    'roll'
+    'rear knee'
 ]
 
 # Move rules as a list of lists

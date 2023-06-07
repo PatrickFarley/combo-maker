@@ -20,8 +20,7 @@ const moves = [
   'reset',
   'rear kick',
   'rear teep',
-  'rear knee',
-  'roll'
+  'rear knee'
 ];
 
 const rules = [
