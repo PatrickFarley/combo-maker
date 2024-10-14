@@ -8,6 +8,10 @@ As I've been taking Muay Thai lessons, I've noticed that there are patterns to t
 
 I listed the moves I wanted to include in the script, and I filled out a matrix to signify which moves can follow which other moves. The main function picks a move randomly, checks if it is allowed to follow the previous move, adds it to the combination, and repeats. The script can generate combinations of any length.
 
+## Try it out
+
+https://patrickfarley.github.io/combo-maker/
+
 ## To do
 
 - account for spacing differences
