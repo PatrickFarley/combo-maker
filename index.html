@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Muay Thai Combo Maker</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -9,10 +10,12 @@
 
   
   <label for="combo-length">Enter the length of the combination:</label>
-  <input type="number" id="combo-length" name="combo-length" min="1" value="5"> <button onclick="getCombo()">Generate combination</button>
+  <input type="number" id="combo-length" name="combo-length" min="1" value="5"> 
   <br>
   <label><input type="checkbox" id="include-reset" checked> Include resets</label>
   <label><input type="checkbox" id="include-slips" checked> Include slips</label>
+  <br>
+  <button onclick="getCombo()">Generate combination</button>
   
 
   

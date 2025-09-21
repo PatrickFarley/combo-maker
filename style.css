@@ -71,3 +71,38 @@ body::after {
   opacity: 0.08;
   z-index: -1;
 }
+
+@media (max-width: 600px) {
+  body {
+    padding: 8px;
+    font-size: 1.1em;
+  }
+  h1, h2 {
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  #combo-length, button {
+    font-size: 1em;
+    padding: 0.4em 0.7em;
+    margin: 0.3em 0.1em;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  #combo-length {
+    max-width: 100%;
+  }
+  label {
+    font-size: 1em;
+    display: block;
+    margin-bottom: 0.5em;
+  }
+  #result {
+    padding: 0.7em;
+    font-size: 1em;
+  }
+  #result p {
+    font-size: 1em;
+    padding-left: 0.5em;
+  }
+}
