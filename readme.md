@@ -12,3 +12,4 @@ I listed the moves I wanted to include in the script, and I filled out a boolean
 
 https://patrickfarley.github.io/combo-maker/
 
+![screenshot of combo maker app](screenshot.png)
