@@ -2,14 +2,20 @@
 <html>
 <head>
   <title>Muay Thai Combo Maker</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1>Muay Thai Combo Maker</h1>
 
+  
   <label for="combo-length">Enter the length of the combination:</label>
-  <input type="number" id="combo-length" name="combo-length" min="1" value="5">
+  <input type="number" id="combo-length" name="combo-length" min="1" value="5"> <button onclick="getCombo()">Generate combination</button>
+  <br>
+  <label><input type="checkbox" id="include-reset" checked> Include resets</label>
+  <label><input type="checkbox" id="include-slips" checked> Include slips</label>
+  
 
-  <button onclick="getCombo()">Generate combination</button>
+  
 
   <h2>Generated combination:</h2>
   <div id="result"></div>

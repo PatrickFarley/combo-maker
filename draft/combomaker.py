@@ -26,7 +26,7 @@ moves = [
     'rear teep', 'rear knee'
 ]
 
-# Move rules as a list of lists. Each row represents a move, the booleans in each combo say which moves _can follow_.
+# Move rules as a list of lists. Each row represents a move, the booleans in each column say which moves _can follow_.
 rules = [
     # jab   bod-jab hook    body-hk  lead-up  lead-el  slipL   reset   sw-k   teep   sw-kn  cross  bodCrs  overh  r-bod-hk r-up  rr-el slipR  r-k    r-teep r-kn 
     [True , True ,  False,  False,   False,   False,   True ,  True ,  False, False, False, True,  True,   True,  True,    True, True, False, True,  True,  True],

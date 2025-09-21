@@ -1,0 +1,73 @@
+/* Martial Arts Theme */
+body {
+  background: #181818;
+  color: #fff;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+h1, h2 {
+  color: #e53935;
+  text-shadow: 2px 2px 0 #000, 0 0 10px #e53935;
+  letter-spacing: 2px;
+}
+
+#combo-length, button {
+  font-size: 1.2em;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  border: 2px solid #e53935;
+  background: #222;
+  color: #fff;
+  margin: 0.5em;
+  transition: box-shadow 0.2s;
+  
+}
+
+#combo-length {
+    max-width: 80px;
+}
+
+button:hover {
+  background: #e53935;
+  color: #fff;
+  box-shadow: 0 0 10px #e53935, 0 0 5px #fff;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 2em;
+  padding: 1em;
+  background: rgba(30, 30, 30, 0.95);
+  border-radius: 10px;
+  border: 2px solid #e53935;
+  box-shadow: 0 0 20px #e53935aa;
+}
+
+#result p {
+  font-size: 1.3em;
+  margin: 0.5em 0;
+  padding-left: 1em;
+  border-left: 4px solid #e53935;
+  background: rgba(255, 255, 255, 0.05);
+  transition: background 0.2s;
+}
+
+#result p:hover {
+  background: #e53935;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  pointer-events: none;
+  background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80') center/cover no-repeat;
+  opacity: 0.08;
+  z-index: -1;
+}
